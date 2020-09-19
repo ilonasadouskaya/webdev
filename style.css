@@ -50,7 +50,6 @@ body {
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rebeccapurple;
 }
 
 .header__navigation {
@@ -95,4 +94,107 @@ a {
 .header__navigation_list_item:first-child {
     font-weight: 500;
     border-bottom: 1px solid white;
+}
+
+.header__navigation_list_item:nth-child(3):hover {
+    border: none;
+}
+
+#your_life {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#your_life__header {
+    height: 75px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin: 136px -5px 0 0;
+}
+
+#your_life__content {
+    height: 50px;
+    width: 505px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.button {
+    width: 184px;
+    height: 46px;
+    background-color: rgb(0, 175, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:rgb(0, 156, 194);
+}
+
+.button:active {
+    border: 2px solid rgb(255, 255, 255)
+}
+
+#your_life__button {
+    margin-top: 11px;
+    margin-left: -1px;
+}
+
+#your_life__social_icons_container {
+    width: 175px;
+    height: 25px;
+    margin-top: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.your_life__icon_container {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your_life__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.your_life__icon:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+#your_life__icon_mail:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+#your_life__icon_facebook:hover {
+    background-color: rgb(59, 89, 152);
+}
+
+#your_life__icon_instagram:hover {
+    background: rgb(214, 36, 159);
+    background: radial-gradient(circle at 30% 107%, rgb(253,244,151) 0%, rgb(253,244,151) 5%, rgb(253,89,73) 45%, rgb(214,36,159) 60%, rgb(40,90,235) 90%);
+}
+
+#your_life__icon_youtube:hover {
+    background-color: rgb(255, 0, 0);
 }
