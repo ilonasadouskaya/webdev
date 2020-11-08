@@ -12,14 +12,14 @@
                 <header id='header'>
                     <h1 id='header__h1'>webdev</h1>
                     <nav id='header__navigation'>
-                        <ul id='header__navigation_list'>
-                            <li class='header__navigation_list_item'><a href='#'>About</a></li>
-                            <li class='header__navigation_list_item'><a href='#'>Syllabus</a></li>
-                            <li class='header__navigation_list_item'><img id='header__navigation_logo' src='assets/logo.png' alt='earth_logo'></li>
-                            <li class='header__navigation_list_item'><a href='#'>Projects</a></li>
-                            <li class='header__navigation_list_item'><a href='#'>FAQ</a></li>
+                        <ul class='navigation' id='header__navigation_list'>
+                            <li class='navigation_list_item' id='header__navigation_list_item-1'><a href='#'>About</a></li>
+                            <li class='navigation_list_item' id='header__navigation_list_item-2'><a href='#'>Syllabus</a></li>
+                            <li class='navigation_list_item' id='header__navigation_list_item-3'><a href='#'>Projects</a></li>
+                            <li class='navigation_list_item' id='header__navigation_list_item-4'><a href='#'>FAQ</a></li>
                         </ul>
                     </nav>
+                    <img class='logo' id='header__navigation_logo' src='assets/logo.png' alt='earth_logo'>
                 </header>
                 <section id='your_life'>
                     <h2 id='your_life__header'>Your life is webdev</h2>
@@ -41,6 +41,83 @@
                     </div>
                 </section>
             </div>
+            <section id='rappresent'>
+                <div id='rappresent__content_container'>
+                    <h3 id='rappresent__header'>Rappresent your idea with a smart Design</h3>
+                    <p id='rappresent__content'>Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong id='rappresent__content_strong'>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs.</p>
+                    <input type='button' value='get started' class='button' id='rappresent__button'>
+                </div>
+                <img src='assets/content-image-1.png' alt='design_image_1' id='rappresent__image_1'>
+            </section>
+            <section id='our_community'>
+                <div id='our_community__user_card'>
+                    <img src='assets/userpic.png' alt='user_picture' id='our_community__user_card__userpic'>
+                    <h4 id='our_community__user_card__header'>Our community</h4>
+                    <p id='our_community__user_card__content'>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
+                </div>
+                <div id='our_community__slider'>
+                    <div id='our_community__slider__navigation'>
+                        <img src='assets/arrow-left.png' alt='arrow_left_icon' id='our_community__slider__navigation_arrow_left'>
+                        <div>
+                            <span id='our_community__slider__navigation_current_image_number' class='our_community__slider__navigation_number'></span>
+                            <img src='assets/divider-icon.png' alt='divider_icon' id='our_community__slider__navigation_arrow_divider'>
+                            <span  id='our_community__slider__navigation_all_images' class='our_community__slider__navigation_number'></span>
+                        </div>
+                        <img src='assets/arrow-right.png' alt='arrow_right_icon' id='our_community__slider__navigation_arrow_right'>
+                    </div>
+                    <div id='our_community__slider__content'>
+                        <div id='our_community__slider__container_image_1' class='our_community__slider__image_container'>
+                            <img src='assets/slider-image-1.png' alt='slider_image_1' id='our_community__slider_image_1'>
+                        </div>
+                        <div id='our_community__slider__container_image-2' class='our_community__slider__image_container'>
+                            <img src='assets/slider-image-2.png' alt='slider_image_2' id='our_community__slider_image_2'>
+                        </div>
+                        <div id='our_community__slider__container_image-3' class='our_community__slider__image_container'>
+                            <img src='assets/slider-image-3.png' alt='slider_image_3' id='our_community__slider_image_3'>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id='implement'>
+                <img src='assets/content-image-2.png' alt='design_image_2' id='implement__image_2'>
+                <div id='implement__content_container'>
+                    <h3 id='implement__header'>Implement right Code</h3>
+                    <p id='implement__content'>These might be considered part of the <strong id='implement__content_strong'>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</p>
+                    <input type='button' value='learn more' class='button' id='implement__button'>
+                </div>
+            </section>
+            <section id='sign_up'>
+                <h3 id='sign_up__header'>Sign up for our newsletter</h3>
+                <form id='sign_up__form'>
+                    <input type='email' placeholder="E-mail" id='sign_up__form_input'>
+                    <button id='sign_up__form_button'></button>
+                </form>
+            </section>
+            <section id='download'>
+                <h3 id='download__header'>Download the App</h3>
+                <p id='download__content'>Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
+                <div id='download__buttons_container'>
+                    <button class='button' id='download__apple_button'>
+                        <p id='download__apple_button_title'>Apple Store</p>
+                        <div id='download__apple_button_icon'></div>
+                    </button>
+                    <button class='button' id='download__android_button'>
+                        <p id='download__android_button_title'>Play Market</p>
+                        <div id='download__android_button_icon'></div>
+                    </button>
+                </div>
+            </section>
+            <footer id='footer'>
+                <nav id='footer__navigation'>
+                    <ul class='navigation' id='footer__navigation_list'>
+                        <li class='navigation_list_item' id='footer__navigation_list_item-1'><a href='#'>Credits</a></li>
+                        <li class='navigation_list_item' id='footer__navigation_list_item-2'><a href='#'>Privacy</a></li>
+                        <li class='navigation_list_item' id='footer__navigation_list_item-3'><a href='#'>Our teams</a></li>
+                    </ul>
+                </nav>
+                <img class='logo' id='footer__navigation_logo' src='assets/logo.png' alt='earth_logo'>
+                <p id='footer__copyright'>by TonYem for RSS at 2020</p>
+            </footer>
         </div>
     </body>
 </html>
